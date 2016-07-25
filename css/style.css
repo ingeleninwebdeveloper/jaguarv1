@@ -1,0 +1,50 @@
+
+ html, body { height: 100%; }
+
+body {
+  background: url("/landing jaguar/images/jaguar-xe.jpg") no-repeat 50%;
+background-size: cover;
+height:100%;
+}
+ 
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700&subset=latin,latin-ext);
+ 
+
+
+
+
+
+
+@media only screen and (max-width: 599px) {
+
+ div { 
+   
+    padding: 20px; 
+   width: auto;
+    height:auto; 
+
+
+
+
+
+
+}
+ }
+
+
+
+
+
+ div { 
+    background: rgba(0, 0, 0, .5); 
+    padding: 20px; 
+   max-width: 600px;
+    height: auto; 
+    position:absolute;
+border-radius: 23px 23px 23px 23px;
+font-family: 'Roboto', sans-serif;
+color: white;
+
+ }
+
+
