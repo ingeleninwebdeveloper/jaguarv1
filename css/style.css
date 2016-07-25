@@ -1,10 +1,13 @@
 
- html, body { height: 100%; }
+ html, body { height: 100%; 
+  padding: 20px;
+ }
 
 body {
   background: url("/landing jaguar/images/jaguar-xe.jpg") no-repeat 50%;
 background-size: cover;
 height:100%;
+font-family: 'Roboto', sans-serif;
 }
  
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,700&subset=latin,latin-ext);
@@ -37,12 +40,12 @@ height:100%;
 
  div { 
     background: rgba(0, 0, 0, .5); 
-    padding: 20px; 
+    padding: 30px; 
    max-width: 600px;
-    height: auto; 
-    position:absolute;
-border-radius: 23px 23px 23px 23px;
-font-family: 'Roboto', sans-serif;
+    
+    
+border-radius:10px;
+
 color: white;
 
  }
